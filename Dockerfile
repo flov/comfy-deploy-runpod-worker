@@ -32,7 +32,6 @@ RUN pip3 install --no-cache-dir torch torchvision torchaudio --index-url https:/
 # Install runpod
 RUN pip3 install runpod requests
 
-
 # Download checkpoints
 RUN wget -O models/checkpoints/dreamshaperXL_sfwLightningDPMSDE.safetensors https://eventstationai.sharepoint.com/:u:/s/Eventstation.ai2/EQozqPH84cJBqQHMFxkT9-YBRIW3-lp46iQd0h7lxspcJg?download=1
 # Download controlnet
